@@ -1,3 +1,11 @@
 import React from "react";
 
-export const App: React.FC = () => <h1>Hello World!</h1>;
+import { Routing } from "./core/routing";
+import { Footer } from "./core/footer";
+
+export const App: React.FC = () => (
+  <div>
+    <Routing />
+    <Footer />
+  </div>
+);
