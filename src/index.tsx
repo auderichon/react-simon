@@ -5,7 +5,7 @@ import { App } from "./app";
 
 const container = document.getElementById("root");
 
-if (!!container) {
+if (container) {
   const root = createRoot(container);
   root.render(<App />);
 }
