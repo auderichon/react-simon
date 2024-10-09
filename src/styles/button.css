@@ -1,0 +1,18 @@
+button {
+  border-radius: var(--border-radius);
+  border-color: var(--color-grey);
+  font-weight: bold;
+  color: var(--color-secondary);
+  font-size: 1.3rem;
+  margin: 0 auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 650px) {
+  button {
+    font-size: 1.2rem;
+  }
+}
