@@ -1,11 +1,11 @@
 import React from "react";
 
 import { Routing } from "./core/routing";
-import { Footer } from "./core/footer";
+import { Footer } from "./components/footer";
 
 export const App: React.FC = () => (
-  <div>
+  <>
     <Routing />
     <Footer />
-  </div>
+  </>
 );
