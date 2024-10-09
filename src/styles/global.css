@@ -8,17 +8,23 @@
 
 body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  background: #262626;
-  color: white;
+  background: var(--color-main);
+  color: var(--color-secondary);
+}
+
+#container {
+  padding: var(--standard-spacing);
   min-height: 100vh;
 }
 
-:root {
-  display: grid;
-  grid-template-columns: (5, 1fr);
-  grid-template-rows: (12, 1fr);
+.bold {
+  font-weight: 800;
 }
 
-:root > * {
-  padding: 0 20px;
+.italic {
+  font-style: italic;
+}
+
+:root {
+  font-size: 16px;
 }

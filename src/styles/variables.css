@@ -1,0 +1,12 @@
+:root {
+  --color-main: #262626;
+  --color-secondary: white;
+  --color-grey: rgba(0, 0, 0, 0.4);
+  --standard-spacing: 20px;
+  --border-radius: 10px;
+  --color-orange: #ff8000;
+  --color-blue: #00ffff;
+  --color-yellow: #ffff00;
+  --color-pink: #ff0080;
+  --color-green: #80ff00;
+}
